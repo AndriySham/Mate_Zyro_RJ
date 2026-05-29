@@ -1,0 +1,39 @@
+.hero {
+  height: 100svh;
+  width: 100%;
+
+  background-image: url(../../assets/Headphones-image-1.png);
+  background-size: cover;
+  background-position: 40%;
+  
+  display: flex;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100%;
+  width: 100%;
+  
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.hero__content {
+  text-align: left;
+}
+
+.hero__wave {
+  width: 32px;
+}
+
+.hero__title {
+  color: #292929;
+  margin: 20px 0 32px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+}

@@ -1,7 +1,11 @@
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+
 function App() {
   return (
     <div>
-      <h1>React Project Started</h1>
+      <Header />
+      <Hero />
     </div>
   );
 }
