@@ -1,3 +1,26 @@
 .header {
-  background-color: aqua;
+  padding-top: 36px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 16px;
+  display: block;
+}
+
+.header__burger {
+  height: 24px;
+  display: block;
 }

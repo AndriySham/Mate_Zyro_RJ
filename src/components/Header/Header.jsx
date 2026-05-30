@@ -1,8 +1,21 @@
 import './Header.css';
+import headerLogo from '../../assets/Logo.png';
+import headerBurger from '../../assets/Icon-Burger-menu.png';
 
 function Header() {
   return (
-    <div className="header">Test header</div>
+    <header className="header">
+      <div className="container">
+        <div className="header__content">
+          <div className="header__logo">
+            <img src={headerLogo} alt="Logo" />
+          </div>
+          <div className="header__burger">
+            <img src={headerBurger} alt="Burger-menu" />
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }
 
